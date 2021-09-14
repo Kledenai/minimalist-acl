@@ -51,3 +51,7 @@ if (!can) {
 ## Support
 
 Having a problem? [Open an issue](https://github.com/kledenai/minimalist-acl/issues/new) I will be happy to help you.
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
