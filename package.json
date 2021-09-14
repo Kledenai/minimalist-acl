@@ -1,16 +1,30 @@
 {
   "name": "minimalist-acl",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Minimalistic ACL implementation for privileges management in javascript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --declaration",
     "dev": "nodemon --watch \"src//\" --exec \"ts-node src/acl.ts\" -e ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kledenai/minimalist-acl"
+  },
+  "keywords": [
+    "javascript",
+    "acl",
+    "role",
+    "minimalist",
+    "authorization"
+  ],
+  "author": "Kledenai Ashver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kledenai/minimalist-acl/issues"
+  },
+  "homepage": "https://github.com/Kledenai/minimalist-acl",
   "devDependencies": {
     "@types/node": "^16.9.1",
     "nodemon": "^2.0.12",
